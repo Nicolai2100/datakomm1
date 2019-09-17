@@ -35,6 +35,8 @@ public class Client {
             //6789
 
 
+
+
             String host3 = "127.0.0.1";
             System.out.println("Attempting connection... \n");
             Socket socketClient = new Socket(host3, 25);
