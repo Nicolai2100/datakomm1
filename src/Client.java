@@ -9,6 +9,8 @@ public class Client {
     public static void main(String argv[]) throws IOException {
         Scanner scan = new Scanner(System.in);
 
+        //thinlinc - Try /sbin/ifconfig
+
         try {
          //   System.out.println("Press: \n1 for connection to localhost\n2 for connection to the xterm");
 /*
@@ -37,6 +39,7 @@ public class Client {
 
 
 
+//            String host3 = "127.0.0.1";
             String host3 = "127.0.0.1";
             System.out.println("Attempting connection... \n");
             Socket socketClient = new Socket(host3, 25);
@@ -48,6 +51,9 @@ public class Client {
 
             //localhost = ip adress
             String serverMsg;
+
+
+
 
             while ((serverMsg = reader.readLine()) != null) {
                 System.out.println("Client: " + serverMsg);
