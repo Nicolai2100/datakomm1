@@ -101,7 +101,6 @@ public class JavaClient2 {
                             if (input.charAt(0) == '.') {
                                 System.out.println(true);
                                 endMessage = false;
-
                             }
                         } while (endMessage);
                         writer.flush();
